@@ -1,0 +1,65 @@
+#footer {
+	background-color: $background-color-4;
+	color: #666669;
+	padding: 55px 0;
+
+	a {
+		color: #919294;
+	}
+}
+
+#company-info {
+	text-align: center;
+
+	@include respond-to(desktop) {
+		text-align: left;
+	}
+
+	border-bottom: 1px solid #2F3033;
+	margin-bottom: 70px;
+	padding-bottom: 30px;
+}
+
+#footer-brand {
+	margin-bottom: 15px;
+
+	@include respond-to(desktop) {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+#footer-recursive {
+	display: inline-block;
+	margin-bottom: 15px;
+
+	@include respond-to(desktop) {
+		margin-left: 132px;
+		vertical-align: middle;
+	}
+}
+
+#social-networks {
+	padding-top: 15px;
+
+	@include respond-to(desktop) {
+		float: right;
+		margin-top: -25px;
+		padding-top: 0;
+	}
+
+	li {
+		height: 64px;
+		width: 64px;
+
+		a {
+			background-color: #2B2C30;
+			border-radius: 50%;
+			display: block;
+			height: inherit;
+			line-height: 64px;
+			text-align: center;
+			width: inherit;
+		}
+	}
+}

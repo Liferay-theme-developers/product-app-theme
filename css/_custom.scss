@@ -1,0 +1,193 @@
+@import "_portlet_decorator.scss";
+
+@import "partials/_buttons";
+@import "partials/_footer";
+@import "partials/_navbar";
+
+// Common
+
+#content {
+	background-color: $color-2;
+	color: $color-1;
+}
+
+#wrapper {
+	padding-top: 0;
+}
+
+.jumbotron {
+	background-color: transparent;
+	margin-bottom: 0;
+
+	h2 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
+
+.h1 {
+	font-size: 54px;
+	font-weight: normal;
+}
+
+.img-spacing {
+	margin-bottom: 15px;
+}
+
+// Background colors
+
+[class$="-background-color"] {
+	padding-bottom: 50px;
+	padding-top: 50px;
+
+	@include respond-to(desktop, tablet) {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+}
+
+.default-background-color {
+	background-color: $color-2;
+	color: $color-1;
+
+	p {
+		opacity: 0.5;
+	}
+}
+
+.main-background-color {
+	background-color: $background-color-3;
+	color: $color-2;
+
+	&, & a {
+		color: $color-2;
+	}
+}
+
+.secondary-background-color {
+	background-color: $background-color-1;
+	color: $color-2;
+}
+
+.tertiary-background-color {
+	background-color: $background-color-2;
+	color: $color-2;
+}
+
+// Background images
+
+[class$="-background-image"] {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: $color-2;
+	padding-bottom: 95px;
+	padding-top: 95px;
+
+	@include respond-to(desktop, tablet) {
+		min-height: 560px;
+		padding-bottom: 190px;
+		padding-top: 190px;
+	}
+}
+
+.tertiary-background-image {
+	color: $color-1;
+	margin-bottom: 95px;
+	padding-bottom: 95px;
+	position: relative;
+
+	@include respond-to(tablet) {
+		padding-top: 80px;
+	}
+
+	p {
+		opacity: 0.5;
+	}
+
+	// Image column
+
+	.col-lg-6.col-md-6 {
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
+
+@include respond-to(mobile, tablet) {
+	[class^="col-"] {
+		.default-background-color &,
+		.main-background-color &,
+		.secondary-background-color &,
+		.tertiary-background-color & {
+			margin-bottom: 30px
+		}
+	}
+}
+
+// Newspaper modules
+
+.tertiary-background-color {
+	a {
+		color: $color-2;
+	}
+
+	a:hover, a:focus {
+		text-decoration: none;
+	}
+
+	[class^="icon-"] {
+		background-color: #EEEF8A;
+		border-radius: 50%;
+		color: #BBBD6D;
+		display: block;
+		font-size: 20px;
+		height: 44px;
+		line-height: 44px;
+		margin: 0 auto 18px;
+		width: 44px;
+	}
+}
+
+// Purple modules
+
+.main-background-color {
+	.h2 {
+		color: $color-4;
+	}
+
+	.well {
+		background-color: rgba(#6568B8, 1);
+		border-width: 0;
+	}
+
+	.currency {
+		top: -2.5em;
+	}
+
+	p.small {
+		font-size: 85%;
+		margin-top: 40px;
+		opacity: 0.4;
+	}
+
+	.list-unstyled {
+		opacity: 0.6;
+	}
+}
+
+// Badge buttons
+
+.store-buttons {
+	img {
+		height: 40px;
+		width: auto;
+	}
+}

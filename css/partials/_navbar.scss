@@ -1,0 +1,98 @@
+#navigation {
+	position: relative;
+	z-index: 500;
+
+	.portlet {
+		margin: 0;
+	}
+}
+
+#banner {
+	background-color: $background-color-3;
+
+	.navbar {
+		margin-bottom: 0;
+	}
+
+	.navbar-nav {
+		> li {
+			> a {
+				color: $color-2;
+			}
+		}
+	}
+
+	.icon-bar {
+		color: $color-2;
+	}
+
+	.navbar-header {
+		padding: 17px 0 0;
+	}
+
+	.portlet-content {
+		padding: 0;
+	}
+}
+
+.full-screen-navigation #banner {
+	.navbar-toggle {
+		display: block;
+		position: relative;
+		z-index: 503;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+
+		.collapse {
+			background-color: $background-color-1;
+
+			&.in {
+				bottom: 0;
+				left: 0;
+				position: fixed;
+				right: 0;
+				top: 0;
+				z-index: 502;
+			}
+		}
+	}
+
+	.navbar-header , .navbar-left ,.navbar-right {
+		float: none;
+	}
+
+	.navbar-nav {
+		float: none;
+		margin-right: 0;
+
+		> li {
+			float: none;
+			text-align: center;
+
+			> a {
+				display: block;
+
+				@include respond-to(desktop, tablet) {
+					font-size: 54px;
+					padding: 30px 15px;
+				}
+			}
+		}
+	}
+
+	#navigationCollapse {
+		&.collapsing {
+			@include animation-duration(0.1s);
+			@include transform(translateY(-50%));
+			position: absolute;
+		}
+
+		&.collapse.in {
+			@include transition(all .2s $ease-in-circ);
+			@include transform(translateY(0));
+			opacity: 1;
+		}
+	}
+}
