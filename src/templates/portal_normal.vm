@@ -22,69 +22,68 @@ $theme.include($body_top_include)
 
 #product_menu_sidebar($liferay_product_menu_state)
 
+<div id="wrapper">
+	<header id="banner" role="banner">
+		<div class="container">
+			<nav class="navbar">
+				<div class="navbar-header">
+					<a class="$logo_css_class" href="$site_default_url" rel="home" title="#language_format ("go-to-x", [$site_name])">
+						<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
+					</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				    </button>
+				</div>
 
-	<div id="wrapper">
-		<header id="banner" role="banner">
-			<div class="container">
-				<nav class="navbar">
-					<div class="navbar-header">
-						<a class="$logo_css_class" href="$site_default_url" rel="home" title="#language_format ("go-to-x", [$site_name])">
-							<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
-						</a>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationCollapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-					    </button>
-					</div>
+				#if ($has_navigation && $is_setup_complete)
+					#parse ("$full_templates_path/navigation.vm")
+				#end
+			</nav>
 
-					#if ($has_navigation && $is_setup_complete)
-						#parse ("$full_templates_path/navigation.vm")
-					#end
-				</nav>
-
-			</div>
-		</header>
-
-		<div>
-			<h1 class="hide-accessible">$the_title</h1>
-
-			#parse ("$full_templates_path/TEMP-content.vm")
-
-			#if ($selectable)
-				$theme.include($content_include)
-			#else
-				$portletDisplay.recycle()
-
-				$portletDisplay.setTitle($the_title)
-
-				$theme.wrapPortlet("portlet.vm", $content_include)
-			#end
 		</div>
+	</header>
 
-		<footer id="footer" role="contentinfo">
-			<div id="company-info" class="container">
-				<div id="footer-brand" class="text-center"><img alt="[Company Logo]" src="$images_folder/content/company_logo_footer.png" /></div>
-				<nav id="footer-recursive">
-					<ul class="list-inline">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">FAQs</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-				<aside id="social-networks">
-					<ul class="list-inline">
-						<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Facebook profile, in new window" src="$images_folder/ui/facebook-footer-icon.png" /></a></li>
-						<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Twitter profile, in new window" src="$images_folder/ui/twitter-footer-icon.png" /></a></li>
-					</ul>
-				</aside>
-			</div>
-			<div class="container">
-				<p id="copyright"><small>#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a></small></p>
-			</div>
-		</footer>
-	</div>
+	<main id="content" role="main">
+		<h1 class="hide-accessible">$the_title</h1>
+
+		#parse ("$full_templates_path/TEMP-content.vm")
+
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</main>
+
+	<footer id="footer" role="contentinfo">
+		<div id="company-info" class="container">
+			<div id="footer-brand" class="text-center"><img alt="[Company Logo]" src="$images_folder/content/company_logo_footer.png" /></div>
+			<nav id="footer-recursive">
+				<ul class="list-inline">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<aside id="social-networks">
+				<ul class="list-inline">
+					<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Facebook profile, in new window" src="$images_folder/ui/facebook-footer-icon.png" /></a></li>
+					<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Twitter profile, in new window" src="$images_folder/ui/twitter-footer-icon.png" /></a></li>
+				</ul>
+			</aside>
+		</div>
+		<div class="container">
+			<p id="copyright"><small>#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a></small></p>
+		</div>
+	</footer>
+</div>
 
 $theme.include($body_bottom_include)
 

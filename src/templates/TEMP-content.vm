@@ -1,7 +1,7 @@
-<main id="content" role="main">
+
 <!-- PROMO PRINCIPAL -->
 		<div class="jumbotron main-background-image" style="background-image: url($images_folder/content/background-1440x780.jpg)">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-sm-6">
 						<h2 class="h1">A Beautiful App Landing Page Template</h2>
@@ -17,7 +17,7 @@
 
 <!-- 3 MODULOS DE well documented -->
 		<div class="jumbotron secondary-background-color">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-4 text-center">
 						<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_01.png" />
@@ -40,7 +40,7 @@
 
 <!-- IMAGEN DEL CHICO EN LA PLAYA superior-->
 		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_01.jpg)">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<h2 class="h1">Sed ut perspiciatis unde omnis iste natus</h2>
@@ -52,7 +52,7 @@
 
 <!-- IMAGEN DEL TELEFONO  + MODULITOS-->
 		<div class="default-background-color jumbotron">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<h2 class="h1">Subscribe to Our Updates</h2>
@@ -103,7 +103,7 @@
 
 <!-- IMAGEN DEL MONITOR LATERAL CON EL MÓVIL-->
 	<div class="jumbotron tertiary-background-image">
-		<section class="container">
+		<section class="container-fluid-1280">
 			<div class="row">
 				<div class="col-lg-5 col-md-6 col-sm-8">
 					<h2 class="h1">Letterpress</h2>
@@ -119,7 +119,7 @@
 
 <!-- IMAGEN DE LA CHICA EN LA PLAYA -->
 		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_02.jpg)">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<h2 class="h1">Subscribe to Our Updates</h2>
@@ -131,7 +131,7 @@
 
 <!-- TRES MODULOS DE PERIODICOS -->
 		<div class="jumbotron tertiary-background-color">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-4 text-center">
 						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-el-pais-165x165.png" />
@@ -154,7 +154,7 @@
 
 <!-- FONDO MORADO + 3 MODULITOS-->
 		<div class="jumbotron main-background-color">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<h2 class="h1">Affordable Packages</h2>
@@ -219,7 +219,7 @@
 
 <!-- IMAGEN DEL CHICO EN LA PLAYA INFERIOR-->
 		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background-1440x640.jpg)">
-			<section class="container">
+			<section class="container-fluid-1280">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<h2 class="h1">Pabst raw denim selvage occupy</h2>
@@ -232,5 +232,3 @@
 				</div>
 			</section>
 		</div>
-	</main>
-</div>
