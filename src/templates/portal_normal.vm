@@ -78,7 +78,9 @@ $theme.include($body_top_include)
 			</aside>
 		</div>
 		<div class="container-fluid-1280">
-			<p id="copyright"><small>#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a></small></p>
+			<p id="copyright">
+				<small>#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a></small>
+			</p>
 		</div>
 	</footer>
 </div>
