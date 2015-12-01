@@ -10,6 +10,7 @@
 
 		<settings>
 			<setting configurable="true" key="full-screen-navigation" type="checkbox" value="false" />
+			<setting configurable="true" key="site-logo-retina" type="checkbox" value="true" />
 		</settings>
 
 		<portlet-decorator id="barebone" name="Barebone">

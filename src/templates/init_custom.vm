@@ -1,0 +1,13 @@
+#set ($fullScreenNavigation = $theme.getSetting("full-screen-navigation"))
+#set ($siteLogoRetina = $theme.getSetting("site-logo-retina"))
+
+#if ($fullScreenNavigation == true)
+	#set ($css_class = "$css_class full-screen-navigation")
+#else
+	#set ($nav_css_right = "navbar-right")
+#end
+
+#if ($siteLogoRetina == true)
+	#set ($company_logo_height = ($company_logo_height/2))
+	#set ($company_logo_width = ($company_logo_width/2))
+#end

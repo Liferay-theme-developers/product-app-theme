@@ -12,15 +12,6 @@
 	$theme.include($top_head_include)
 </head>
 
-## Esto va al init_custom cuando funcione
-#set ($fullScreenNavigation = $theme.getSetting("full-screen-navigation"))
-
-#if ($fullScreenNavigation == true)
-	#set ($css_class = "$css_class full-screen-navigation")
-#else
-	#set ($nav_css_right = "navbar-right")
-#end
-
 <body class="$css_class">
 
 #quick_access("#main-content")
@@ -38,8 +29,7 @@ $theme.include($body_top_include)
 				<nav class="navbar">
 					<div class="navbar-header">
 						<a class="$logo_css_class" href="$site_default_url" rel="home" title="#language_format ("go-to-x", [$site_name])">
-							##<img alt="$logo_description" src="$images_folder/product_app_logo.png" />
-							<img alt="$logo_description" src="$site_logo" />
+							<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
 						</a>
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationCollapse">
 							<span class="icon-bar"></span>
