@@ -66,13 +66,9 @@ $theme.include($body_top_include)
 				<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
 			</div>
 			<nav id="footer-recursive">
-				<ul class="list-inline">
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">FAQs</a></li>
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+				#if ($has_navigation)
+					#parse ("$full_templates_path/footer_navigation.vm")
+				#end
 			</nav>
 			<aside id="social-networks">
 				<ul class="list-inline">
