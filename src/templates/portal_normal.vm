@@ -24,7 +24,7 @@ $theme.include($body_top_include)
 
 <div id="wrapper">
 	<header id="banner" role="banner">
-		<div class="container">
+		<div class="container-fluid-1280">
 			<nav class="navbar">
 				<div class="navbar-header">
 					<a class="$logo_css_class" href="$site_default_url" rel="home" title="#language_format ("go-to-x", [$site_name])">
@@ -61,7 +61,7 @@ $theme.include($body_top_include)
 	</main>
 
 	<footer id="footer" role="contentinfo">
-		<div id="company-info" class="container">
+		<div id="company-info" class="container-fluid-1280">
 			<div id="footer-brand" class="text-center"><img alt="[Company Logo]" src="$images_folder/content/company_logo_footer.png" /></div>
 			<nav id="footer-recursive">
 				<ul class="list-inline">
@@ -79,7 +79,7 @@ $theme.include($body_top_include)
 				</ul>
 			</aside>
 		</div>
-		<div class="container">
+		<div class="container-fluid-1280">
 			<p id="copyright"><small>#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a></small></p>
 		</div>
 	</footer>
