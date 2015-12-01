@@ -62,7 +62,9 @@ $theme.include($body_top_include)
 
 	<footer id="footer" role="contentinfo">
 		<div id="company-info" class="container-fluid-1280">
-			<div id="footer-brand" class="text-center"><img alt="[Company Logo]" src="$images_folder/content/company_logo_footer.png" /></div>
+			<div id="footer-brand" class="text-center">
+				<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
+			</div>
 			<nav id="footer-recursive">
 				<ul class="list-inline">
 					<li><a href="#">About Us</a></li>
