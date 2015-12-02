@@ -29,6 +29,12 @@ $theme.include($body_top_include)
 				<div class="navbar-header">
 					<a class="$logo_css_class" href="$site_default_url" rel="home" title="#language_format ("go-to-x", [$site_name])">
 						<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
+
+						#if ($show_site_name)
+							<span class="site-name" title="#language_format ("go-to-x", [$site_name])">
+								$site_name
+							</span>
+						#end
 					</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationCollapse">
 						<span class="icon-bar"></span>

@@ -12,6 +12,14 @@
 
 	.navbar {
 		margin-bottom: 0;
+
+		.custom-logo {
+			color: $color-2;
+
+			.site-name {
+				margin-left: 16px;
+			}
+		}
 	}
 
 	.navbar-nav {
