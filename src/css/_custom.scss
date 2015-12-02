@@ -4,8 +4,6 @@
 @import "partials/_footer";
 @import "partials/_navbar";
 
-// Common
-
 #content {
 	background-color: $color-2;
 	color: $color-1;
@@ -40,8 +38,6 @@
 .img-spacing {
 	margin-bottom: 15px;
 }
-
-// Background colors
 
 [class$="-background-color"] {
 	padding-bottom: 50px;
@@ -81,8 +77,6 @@
 	color: $color-2;
 }
 
-// Background images
-
 [class$="-background-image"] {
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -114,8 +108,6 @@
 		opacity: 0.5;
 	}
 
-	// Image column
-
 	.col-lg-6.col-md-6 {
 		background-position: bottom right;
 		background-repeat: no-repeat;
@@ -138,8 +130,6 @@
 	}
 }
 
-// Newspaper modules
-
 .tertiary-background-color {
 	a {
 		color: $color-2;
@@ -161,8 +151,6 @@
 		width: 44px;
 	}
 }
-
-// Purple modules
 
 .main-background-color {
 	.h2 {
@@ -188,8 +176,6 @@
 		opacity: 0.6;
 	}
 }
-
-// Badge buttons
 
 .store-buttons {
 	img {
