@@ -22,20 +22,30 @@
 		}
 	}
 
-	.icon-bar {
-		color: $color-2;
-	}
-
-	.navbar-header {
-		padding: 17px 0 0;
-	}
-
 	.portlet-content {
 		padding: 0;
+	}
+
+	.logo {
+		margin-top: 10px;
+
+		@include respond-to(desktop, tablet) {
+			margin-top: 17px;
+		}
 	}
 }
 
 .full-screen-navigation #banner {
+	@include respond-to(desktop, tablet) {
+		.navbar-header {
+			margin-top: 8px;
+		}
+
+		.logo {
+			margin-top: 9px;
+		}
+	}
+
 	.navbar-toggle {
 		display: block;
 		position: relative;
@@ -59,7 +69,7 @@
 		}
 	}
 
-	.navbar-header , .navbar-left ,.navbar-right {
+	.navbar-header, .navbar-left, .navbar-right {
 		float: none;
 	}
 
@@ -83,16 +93,58 @@
 	}
 
 	#navigationCollapse {
-		&.collapsing {
-			@include animation-duration(0.1s);
-			@include transform(translateY(-50%));
-			position: absolute;
+
+		&.in, &.collapsing  {
+			bottom: 0;
+			height: auto;
+			left: 0;
+			overflow: auto;
+			position: fixed;
+			right: 0;
+			top: 0;
+			z-index: 502;
+
+			#navigation {
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 50%;
+
+				@include transform(translateY(-50%));
+			}
 		}
 
-		&.collapse.in {
-			@include transition(all .2s $ease-in-circ);
-			@include transform(translateY(0));
-			opacity: 1;
+		&.collapsing {
+			display: none;
+		}
+	}
+}
+
+// CLOSE MENU BUTTON
+
+.navbar-toggle {
+	.icon-bar {
+		background-color: $color-2;
+
+		@include transform(rotate(0));
+		@include transition(all 0.2s ease-in-out);
+	}
+
+	&[aria-expanded="true"] {
+		.icon-bar {
+			position: relative;
+
+			&:first-child {
+				top: -2px;
+				@include transform(rotate(45deg));
+				@include transform-origin(10% 10%);
+			}
+
+			&:last-child {
+				bottom: -2px;
+				@include transform(rotate(-45deg));
+				@include transform-origin(10% 90%);
+			}
 		}
 	}
 }
