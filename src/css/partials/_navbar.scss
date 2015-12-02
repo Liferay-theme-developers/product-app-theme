@@ -99,10 +99,11 @@
 
 				> a {
 					display: block;
+					font-size: 34px;
+					padding: 30px 15px;
 
 					@include respond-to(desktop, tablet) {
 						font-size: 54px;
-						padding: 30px 15px;
 					}
 				}
 			}
