@@ -72,8 +72,16 @@ $theme.include($body_top_include)
 			</nav>
 			<aside id="social-networks">
 				<ul class="list-inline">
-					<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Facebook profile, in new window" src="$images_folder/ui/facebook-footer-icon.png" /></a></li>
-					<li><a href="#" rel="external" target="_blank" title="Go to Facebook profile, in new window"><img alt="Twitter profile, in new window" src="$images_folder/ui/twitter-footer-icon.png" /></a></li>
+					<li>
+						<a href="#" rel="external" target="_blank" title="Go to our Facebook (in new window)">
+							<span class="icon-monospaced icon-facebook"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" rel="external" target="_blank" title="Go to our Twitter (in new window)">
+							<span class="icon-monospaced icon-twitter"></span>
+						</a>
+					</li>
 				</ul>
 			</aside>
 		</div>
