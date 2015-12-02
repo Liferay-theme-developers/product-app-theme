@@ -38,7 +38,7 @@
 	.logo {
 		margin-top: 10px;
 
-		@include respond-to(desktop, tablet) {
+		@include sm {
 			margin-top: 17px;
 		}
 	}
@@ -54,7 +54,7 @@
 	}
 
 	#banner {
-		@include respond-to(desktop, tablet) {
+		@include sm {
 			.navbar-header {
 				margin-top: 8px;
 			}
@@ -103,7 +103,7 @@
 					font-size: 34px;
 					padding: 30px 15px;
 
-					@include respond-to(desktop, tablet) {
+					@include sm {
 						font-size: 54px;
 					}
 				}

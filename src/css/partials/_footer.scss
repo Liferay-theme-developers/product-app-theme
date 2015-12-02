@@ -11,7 +11,7 @@
 #company-info {
 	text-align: center;
 
-	@include respond-to(desktop) {
+	@include media-query($breakpoint_tablet, null) {
 		text-align: left;
 	}
 
@@ -23,7 +23,7 @@
 #footer-brand {
 	margin-bottom: 15px;
 
-	@include respond-to(desktop) {
+	@include media-query($breakpoint_tablet, null) {
 		display: inline-block;
 		vertical-align: middle;
 	}
@@ -33,7 +33,7 @@
 	display: inline-block;
 	margin-bottom: 15px;
 
-	@include respond-to(desktop) {
+	@include media-query($breakpoint_tablet, null) {
 		margin-left: 132px;
 		vertical-align: middle;
 	}
@@ -42,7 +42,7 @@
 #social-networks {
 	padding-top: 15px;
 
-	@include respond-to(desktop) {
+	@include media-query($breakpoint_tablet, null) {
 		float: right;
 		margin-top: -25px;
 		padding-top: 0;
