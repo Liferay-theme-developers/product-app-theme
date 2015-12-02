@@ -30,7 +30,11 @@
 
 .h1 {
 	font-size: 54px;
-	font-weight: normal;
+
+	@include respond-to(desktop, tablet) {
+		font-weight: normal;
+		line-height: 1.1;
+	}
 }
 
 .img-spacing {
@@ -96,12 +100,14 @@
 
 .tertiary-background-image {
 	color: $color-1;
-	margin-bottom: 95px;
-	padding-bottom: 95px;
 	position: relative;
 
 	@include respond-to(tablet) {
 		padding-top: 80px;
+	}
+
+	@include respond-to(tablet, desktop) {
+		margin-bottom: 95px;
 	}
 
 	p {
