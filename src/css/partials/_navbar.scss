@@ -10,6 +10,10 @@
 #banner {
 	background-color: $background-color-3;
 
+	.portlet-content {
+		padding: 0;
+	}
+
 	.navbar {
 		margin-bottom: 0;
 
@@ -30,10 +34,6 @@
 		}
 	}
 
-	.portlet-content {
-		padding: 0;
-	}
-
 	.logo {
 		margin-top: 10px;
 
@@ -43,65 +43,73 @@
 	}
 }
 
-.full-screen-navigation #banner {
-	@include respond-to(desktop, tablet) {
-		.navbar-header {
-			margin-top: 8px;
-		}
+.full-screen-navigation {
+	&.main-nav-opened {
+		overflow: hidden;
 
-		.logo {
-			margin-top: 9px;
+		#banner .navbar-toggle {
+			z-index: 503;
 		}
 	}
 
-	.navbar-toggle {
-		display: block;
-		position: relative;
-		z-index: 503;
-	}
+	#banner {
+		@include respond-to(desktop, tablet) {
+			.navbar-header {
+				margin-top: 8px;
+			}
 
-	.navbar {
-		margin-bottom: 0;
-
-		.collapse {
-			background-color: $background-color-1;
-
-			&.in {
-				bottom: 0;
-				left: 0;
-				position: fixed;
-				right: 0;
-				top: 0;
-				z-index: 502;
+			.logo {
+				margin-top: 9px;
 			}
 		}
-	}
 
-	.navbar-header, .navbar-left, .navbar-right {
-		float: none;
-	}
+		.navbar-toggle {
+			display: block;
+			position: relative;
+		}
 
-	.navbar-nav {
-		float: none;
-		margin-right: 0;
+		.navbar {
+			margin-bottom: 0;
 
-		> li {
+			.collapse {
+				background-color: $background-color-1;
+
+				&.in {
+					bottom: 0;
+					left: 0;
+					position: fixed;
+					right: 0;
+					top: 0;
+					z-index: 502;
+				}
+			}
+		}
+
+		.navbar-header, .navbar-left, .navbar-right {
 			float: none;
-			text-align: center;
+		}
 
-			> a {
-				display: block;
+		.navbar-nav {
+			float: none;
+			margin-right: 0;
 
-				@include respond-to(desktop, tablet) {
-					font-size: 54px;
-					padding: 30px 15px;
+			> li {
+				float: none;
+				text-align: center;
+
+				> a {
+					display: block;
+
+					@include respond-to(desktop, tablet) {
+						font-size: 54px;
+						padding: 30px 15px;
+					}
 				}
 			}
 		}
 	}
 
 	#navigationCollapse {
-
 		&.in, &.collapsing  {
 			bottom: 0;
 			height: auto;
@@ -142,12 +150,14 @@
 
 			&:first-child {
 				top: -2px;
+
 				@include transform(rotate(45deg));
 				@include transform-origin(10% 10%);
 			}
 
 			&:last-child {
 				bottom: -2px;
+
 				@include transform(rotate(-45deg));
 				@include transform-origin(10% 90%);
 			}
