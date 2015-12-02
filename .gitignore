@@ -1,4 +1,8 @@
-*
-!/src/
-!src/*
 *.DS_Store
+/bower_components/
+/build/
+/dist/
+/node_modules/
+gulpfile.js
+liferay-theme.json
+package.json
