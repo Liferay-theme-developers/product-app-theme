@@ -65,25 +65,12 @@ $theme.include($body_top_include)
 			<div id="footer-brand" class="text-center">
 				<img alt="$logo_description" height="$company_logo_height" src="$site_logo" width="$company_logo_width" />
 			</div>
-			<nav id="footer-recursive">
-				#if ($has_navigation)
-					#parse ("$full_templates_path/footer_navigation.vm")
-				#end
-			</nav>
-			<aside id="social-networks">
-				<ul class="list-inline">
-					<li>
-						<a href="#" rel="external" target="_blank" title="Go to our Facebook (in new window)">
-							<span class="icon-monospaced icon-facebook"></span>
-						</a>
-					</li>
-					<li>
-						<a href="#" rel="external" target="_blank" title="Go to our Twitter (in new window)">
-							<span class="icon-monospaced icon-twitter"></span>
-						</a>
-					</li>
-				</ul>
-			</aside>
+
+			#if ($has_navigation)
+				#parse ("$full_templates_path/footer_navigation.vm")
+			#end
+
+			#parse ("$full_templates_path/social_media.vm")
 		</div>
 		<div class="container-fluid-1280">
 			<p id="copyright">
