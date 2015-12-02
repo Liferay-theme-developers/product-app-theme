@@ -9,6 +9,7 @@
 	#set ($css_class = "$css_class full-screen-navigation")
 #else
 	#set ($nav_css_right = "navbar-right")
+	#set ($nav_collapse = "navbar-collapse")
 #end
 
 #if ($siteLogoRetina == true)
