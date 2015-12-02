@@ -60,6 +60,19 @@
 			line-height: 64px;
 			text-align: center;
 			width: inherit;
+
+			&:hover span, &:focus span {
+				color: $color-2;
+				text-decoration: none;
+			}
 		}
+	}
+
+	.icon-facebook {
+		color: #57599F;
+	}
+
+	.icon-twitter {
+		color: #7BC6DC;
 	}
 }
