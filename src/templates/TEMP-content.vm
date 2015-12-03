@@ -1,4 +1,3 @@
-
 <!-- PROMO PRINCIPAL -->
 		<div class="jumbotron main-background-image" style="background-image: url($images_folder/content/background-1440x780.jpg)">
 			<section class="container-fluid-1280">
@@ -225,7 +224,7 @@
 						<h2 class="h1">Pabst raw denim selvage occupy</h2>
 						<p class="lead">Buyer Android & IPAD backing metrics crowdsource hypotheses social proof. Seed round startup launch party burn rate.</p>
 						<ul class="list-inline list-unstyled store-buttons">
-							<li><a href="#" rel="external" target="_blank" title="Download on the App Store, in new window"><img alt="Download on the App Store" src="$images_folder/ui/Download_on_the_App_Store_Badge_US-UK_135x40.svg" /></a></li>
+							<li><a href="#" rel="external" target="_blank" title="Download on the App Store, in new window"><img alt="Download on the App Store" src="$images_folder/ui/Download_on_the_App_Store_Badge_US-UK_135x40.png" /></a></li>
 							<li><a href="#" rel="external" target="_blank" title="Get it on Google Play, in new window"><img alt="Get it on Google Play" src="$images_folder/ui/google-play-badge.png" /></a></li>
 						</ul>
 					</div>
