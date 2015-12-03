@@ -136,17 +136,17 @@
 					<div class="col-md-4 text-center">
 						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-el-pais-165x165.png" />
 						<p>Gamification angel investor readymade drinking vinegar: <strong>selvage 64-bit</strong> you probably haven't heard of...</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="icon-link"></span> El País</a></p>
+						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> El País</a></p>
 					</div>
 					<div class="col-md-4 text-center">
 						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-new-york-times-165x165.png" />
 						<p>Focus art small batch, hoodie tote bag vinyl burn rate direct mailing business plan cronut street art distillery trust fund.</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to The New York Times web site, in new window"><span class="icon-link"></span> The New York Times</a></p>
+						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to The New York Times web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> The New York Times</a></p>
 					</div>
 					<div class="col-md-4 text-center">
 						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-business-insider-165x165.png" />
 						<p>Alpha seed money infographic fingerstache ramen freemium disruptive A/B testing. Bootstrapping helvetica typewriter.</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="icon-link"></span> Business Insider</a></p>
+						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> Business Insider</a></p>
 					</div>
 				</div>
 			</section>

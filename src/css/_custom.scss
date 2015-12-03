@@ -139,16 +139,8 @@
 		text-decoration: none;
 	}
 
-	[class^="icon-"] {
-		background-color: #EEEF8A;
-		border-radius: 50%;
-		color: #BBBD6D;
-		display: block;
-		font-size: 20px;
-		height: 44px;
-		line-height: 44px;
-		margin: 0 auto 18px;
-		width: 44px;
+	.badge {
+		margin-bottom: 18px;
 	}
 }
 
