@@ -4,7 +4,7 @@
 			#if ($socialMediaFacebook == true)
 				<li>
 					<a href="$socialMediaFacebookUrl" rel="external" target="_blank" title="Go to our Facebook (in new window)">
-						<span class="icon-monospaced icon-facebook"></span>
+						<span class="icon-facebook icon-monospaced"></span>
 					</a>
 				</li>
 			#end
