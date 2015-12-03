@@ -1,106 +1,100 @@
-<!-- PROMO PRINCIPAL -->
-		<div class="jumbotron main-background-image" style="background-image: url($images_folder/content/background-1440x780.jpg)">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-sm-6">
-						<h2 class="h1">A Beautiful App Landing Page Template</h2>
-						<p class="lead">Branding stock burn rate, shoreditch gingerbread 45% microdosing meditation. Pickled letterpress <strong>whatever gamification</strong> tilde.</p>
-						<ul class="list-inline">
-							<li><a class="btn btn-default btn-theme-default btn-xl" href="#">Discover</a></li>
-							<li><a class="btn btn-primary btn-theme-primary btn-xl" href="#">Download</a></li>
-						</ul>
+	<div class="jumbotron main-background-image" style="background-image: url($images_folder/content/background-1440x780.jpg)">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 class="h1">A Beautiful App Landing Page Template</h2>
+					<p class="lead">Branding stock burn rate, shoreditch gingerbread 45% microdosing meditation. Pickled letterpress <strong>whatever gamification</strong> tilde.</p>
+					<ul class="list-inline">
+						<li><a class="btn btn-default btn-theme-default btn-xl" href="#">Discover</a></li>
+						<li><a class="btn btn-primary btn-theme-primary btn-xl" href="#">Download</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="jumbotron secondary-background-color">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_01.png" />
+					<h2>Venture mixtape focus</h2>
+					<p>Iteration venture mixtape focus prototype entrepreneur direct mailing learning curve handshake accelerator advisor burn rate.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_02.png" />
+					<h2>Less time design</h2>
+					<p>Microdosing meditation plaid flannel whatever portland crucifix letterpress: freemium accelerator deployment.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_03.png" />
+					<h2>Email Marketing</h2>
+					<p>Everyday messenger bag biodiesel wayfarers fap, vegan pabst cliche bespoke meggings literally rights hashtag graphical.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_01.jpg)">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="h1">Sed ut perspiciatis unde omnis iste natus</h2>
+					<p class="lead">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="default-background-color jumbotron">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="h1">Subscribe to Our Updates</h2>
+					<p class="lead">Candy canes cake chocolate cake. Brownie cake carrot cake powder bear claw apple pie jujubes soufflé croissant.</p>
+					<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/phone-750x368.png" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-01.png" />
+						<h3>Awesome features</h3>
+						<p>Biodiesel readymade drinking vinegar, selvage 8-bit you probably haven't heard of them haven't heard of them.</p>
+					</div>
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-02.png" />
+						<h3>Built with bootstrap 3</h3>
+						<p>Direct trade sartorial burn rate scrum project disrupt hammock heirloom beta locavore kinfolk.</p>
+					</div>
+					<div class="clearfix visible-lg-block visible-md-block"></div>
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-03.png" />
+						<h3>Crowdfunding sales virality</h3>
+						<p>User experience innovator vesting period entrepreneur business-to-consumer social media.</p>
+					</div>
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-04.png" />
+						<h3>Success release assets research</h3>
+						<p>Venture responsive web design ramen, photo booth chillwave deep raw denim.</p>
+					</div>
+					<div class="clearfix visible-lg-block visible-md-block"></div>
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-05.png" />
+						<h3>Success release assets research</h3>
+						<p>Biodiesel readymade drinking vinegar, selvage 8-bit you probably haven't heard of them Shoreditch.</p>
+					</div>
+					<div class="col-md-6">
+						<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-06.png" />
+						<h3>First mover advantage handshake</h3>
+						<p>Direct trade sartorial burn rate scrum project disrupt hammock heirloom beta locavore kinfolk.</p>
 					</div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+	</div>
 
-<!-- 3 MODULOS DE well documented -->
-		<div class="jumbotron secondary-background-color">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_01.png" />
-						<h2>Chillwave before fanny pack</h2>
-						<p>Iteration venture mixtape focus prototype entrepreneur direct mailing learning curve handshake accelerator advisor burn rate.</p>
-					</div>
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_02.png" />
-						<h2>Neutra scenester dreamcatcher</h2>
-						<p>Microdosing meditation plaid flannel whatever portland crucifix letterpress: freemium accelerator deployment.</p>
-					</div>
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/158x136_03.png" />
-						<h2>Termsheet sustainable aesthetics</h2>
-						<p>Everyday messenger bag biodiesel wayfarers fap, vegan pabst cliche bespoke meggings literally rights hashtag graphical.</p>
-					</div>
-				</div>
-			</section>
-		</div>
-
-<!-- IMAGEN DEL CHICO EN LA PLAYA superior-->
-		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_01.jpg)">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="h1">Sed ut perspiciatis unde omnis iste natus</h2>
-						<p class="lead">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
-					</div>
-				</div>
-			</section>
-		</div>
-
-<!-- IMAGEN DEL TELEFONO  + MODULITOS-->
-		<div class="default-background-color jumbotron">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="h1">Subscribe to Our Updates</h2>
-						<p class="lead">Candy canes cake chocolate cake. Brownie cake carrot cake powder bear claw apple pie jujubes soufflé croissant.</p>
-						<img alt="[Insert alternative description here]" class="center-block img-responsive img-spacing" src="$images_folder/content/phone-750x368.png" />
-					</div>
-				</div>
-
-	<!-- FEATURES MODULES -->
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-01.png" />
-							<h3>Success release assets research</h3>
-							<p>Biodiesel readymade drinking vinegar, selvage 8-bit you probably haven't heard of them haven't heard of them.</p>
-						</div>
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-02.png" />
-							<h3>First mover advantage handshake</h3>
-							<p>Direct trade sartorial burn rate scrum project disrupt hammock heirloom beta locavore kinfolk.</p>
-						</div>
-						<div class="clearfix visible-lg-block visible-md-block"></div>
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-03.png" />
-							<h3>Crowdfunding sales virality</h3>
-							<p>User experience innovator vesting period entrepreneur business-to-consumer social media.</p>
-						</div>
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-04.png" />
-							<h3>Stock virality vesting</h3>
-							<p>Venture responsive web design ramen, photo booth chillwave deep raw denim.</p>
-						</div>
-						<div class="clearfix visible-lg-block visible-md-block"></div>
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-05.png" />
-							<h3>Success release assets research</h3>
-							<p>Biodiesel readymade drinking vinegar, selvage 8-bit you probably haven't heard of them Shoreditch.</p>
-						</div>
-						<div class="col-md-6">
-							<img alt="[Insert alternative description here]" class="img-rounded" src="$images_folder/content/features-icon-06.png" />
-							<h3>First mover advantage handshake</h3>
-							<p>Direct trade sartorial burn rate scrum project disrupt hammock heirloom beta locavore kinfolk.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-
-<!-- IMAGEN DEL MONITOR LATERAL CON EL MÓVIL-->
 	<div class="jumbotron tertiary-background-image">
 		<section class="container-fluid-1280">
 			<div class="row">
@@ -116,118 +110,114 @@
 		</section>
 	</div>
 
-<!-- IMAGEN DE LA CHICA EN LA PLAYA -->
-		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_02.jpg)">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="h1">Subscribe to Our Updates</h2>
-						<p class="lead">Direct trade sartorial chartreuse locavore kinfolk, ramps stumptown bushwick asymmetrical tofu early adopters.</p>
-					</div>
+	<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background_1440x560_02.jpg)">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="h1">Subscribe to Our Updates</h2>
+					<p class="lead">Direct trade sartorial chartreuse locavore kinfolk, ramps stumptown bushwick asymmetrical tofu early adopters.</p>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+	</div>
 
-<!-- TRES MODULOS DE PERIODICOS -->
-		<div class="jumbotron tertiary-background-color">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-el-pais-165x165.png" />
-						<p>Gamification angel investor readymade drinking vinegar: <strong>selvage 64-bit</strong> you probably haven't heard of...</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> El País</a></p>
-					</div>
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-new-york-times-165x165.png" />
-						<p>Focus art small batch, hoodie tote bag vinyl burn rate direct mailing business plan cronut street art distillery trust fund.</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to The New York Times web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> The New York Times</a></p>
-					</div>
-					<div class="col-md-4 text-center">
-						<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-business-insider-165x165.png" />
-						<p>Alpha seed money infographic fingerstache ramen freemium disruptive A/B testing. Bootstrapping helvetica typewriter.</p>
-						<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> Business Insider</a></p>
-					</div>
+	<div class="jumbotron tertiary-background-color">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-el-pais-165x165.png" />
+					<p>Gamification angel investor readymade drinking vinegar: <strong>selvage 64-bit</strong> you probably haven't heard of...</p>
+					<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> El País</a></p>
 				</div>
-			</section>
-		</div>
-
-<!-- FONDO MORADO + 3 MODULITOS-->
-		<div class="jumbotron main-background-color">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="h1">Affordable Packages</h2>
-						<p class="lead">Accelerator alpha bitters crucifix mixtape slow-carb, organic master cleanse blog waistcoat disrupt taxidermy. Single-origin coffee fashion axe fap, quinoa gastropub keytar keffiyeh.</p>
-					</div>
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-new-york-times-165x165.png" />
+					<p>Focus art small batch, hoodie tote bag vinyl burn rate direct mailing business plan cronut street art distillery trust fund.</p>
+					<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to The New York Times web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> The New York Times</a></p>
 				</div>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="well well-lg">
-							<h3 class="h2">Standard</h3>
-							<p><sup class="currency">$</sup> <span class="h1">30</span> <span class="period">mo <sup>*</sup></span>
-							</p>
-							<p>Fixie cold-pressed brooklyn, ecosystem interaction chillwave occupy waistcoat.</p>
-							<p class="small">$35 month-to-month (USD)</p>
-							<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
-						</div>
-						<ul class="list-unstyled small">
-							<li>1 microdosing</li>
-							<li>1 booth tofu</li>
-							<li>2 GB trade meggings</li>
-						</ul>
+				<div class="col-md-4 text-center">
+					<img alt="[Insert alternative description here]" class="img-circle img-spacing" src="$images_folder/content/logo-business-insider-165x165.png" />
+					<p>Alpha seed money infographic fingerstache ramen freemium disruptive A/B testing. Bootstrapping helvetica typewriter.</p>
+					<p class="external-link"><a href="#" rel="external" target="_blank" title="Go to El Pais web site, in new window"><span class="badge badge-lg badge-monospaced center-block user-icon-color-1"><span class="icon-link"> </span></span> Business Insider</a></p>
+				</div>
+			</div>
+		</section>
+	</div>
 
+	<div class="jumbotron main-background-color">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="h1">Affordable Packages</h2>
+					<p class="lead">Accelerator alpha bitters crucifix mixtape slow-carb, organic master cleanse blog waistcoat disrupt taxidermy. Single-origin coffee fashion axe fap, quinoa gastropub keytar keffiyeh.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<div class="well well-lg">
+						<h3 class="h2">Standard</h3>
+						<p><sup class="currency">$</sup> <span class="h1">30</span> <span class="period">mo <sup>*</sup></span>
+						</p>
+						<p>Fixie cold-pressed brooklyn, ecosystem interaction chillwave occupy waistcoat.</p>
+						<p class="small">$35 month-to-month (USD)</p>
+						<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
 					</div>
-					<div class="col-md-4 text-center">
-						<div class="well well-lg">
-							<h3 class="h2">Pro</h3>
-							<p><sup class="currency">$</sup> <span class="h1">60</span> <span class="period">mo <sup>*</sup></span>
+					<ul class="list-unstyled small">
+						<li>1 microdosing</li>
+						<li>1 booth tofu</li>
+						<li>2 GB trade meggings</li>
+					</ul>
+
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="well well-lg">
+						<h3 class="h2">Pro</h3>
+						<p><sup class="currency">$</sup> <span class="h1">60</span> <span class="period">mo <sup>*</sup></span>
 </p>
-							<p>Waistcoat disrupt synth letterpress williamsburg, selfies selvage sartorial.</p>
-							<p class="small">$35 month-to-month (USD)</p>
-							<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
-						</div>
-						<ul class="list-unstyled small">
-							<li>2 microdosing</li>
-							<li>2 booth tofu</li>
-							<li>4 GB trade meggings</li>
-							<li>100 GB ecosystem interaction</li>
-							<li>Ramen freemium disruptive</li>
-						</ul>
+						<p>Waistcoat disrupt synth letterpress williamsburg, selfies selvage sartorial.</p>
+						<p class="small">$35 month-to-month (USD)</p>
+						<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
 					</div>
-					<div class="col-md-4 text-center">
-						<div class="well well-lg">
-							<h3 class="h2">Business</h3>
-							<p><sup class="currency">$</sup> <span class="h1">135</span> <span class="period">mo <sup>*</sup></span>
-							</p>
-							<p>Chillwave occupy waistcoat disrupt synth letterpress, selfies selvage.</p>
-							<p class="small">Annual only</p>
-							<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
-						</div>
-						<ul class="list-unstyled small">
-							<li>5 microdosing cleanse</li>
-							<li>1 booth tofu</li>
-							<li>2 GB readymade biodiesel gentrify</li>
-							<li>200 GB ecosystem interaction</li>
-							<li>Normcore chartreuse 64-bit bag seitan</li>
-						</ul>
-
-					</div>
+					<ul class="list-unstyled small">
+						<li>2 microdosing</li>
+						<li>2 booth tofu</li>
+						<li>4 GB trade meggings</li>
+						<li>100 GB ecosystem interaction</li>
+						<li>Ramen freemium disruptive</li>
+					</ul>
 				</div>
-			</section>
-		</div>
-
-<!-- IMAGEN DEL CHICO EN LA PLAYA INFERIOR-->
-		<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background-1440x640.jpg)">
-			<section class="container-fluid-1280">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<h2 class="h1">Pabst raw denim selvage occupy</h2>
-						<p class="lead">Buyer Android & IPAD backing metrics crowdsource hypotheses social proof. Seed round startup launch party burn rate.</p>
-						<ul class="list-inline list-unstyled store-buttons">
-							<li><a href="#" rel="external" target="_blank" title="Download on the App Store, in new window"><img alt="Download on the App Store" src="$images_folder/ui/Download_on_the_App_Store_Badge_US-UK_135x40.png" /></a></li>
-							<li><a href="#" rel="external" target="_blank" title="Get it on Google Play, in new window"><img alt="Get it on Google Play" src="$images_folder/ui/google-play-badge.png" /></a></li>
-						</ul>
+				<div class="col-md-4 text-center">
+					<div class="well well-lg">
+						<h3 class="h2">Business</h3>
+						<p><sup class="currency">$</sup> <span class="h1">135</span> <span class="period">mo <sup>*</sup></span>
+						</p>
+						<p>Chillwave occupy waistcoat disrupt synth letterpress, selfies selvage.</p>
+						<p class="small">Annual only</p>
+						<a class="btn btn-block btn-primary btn-theme-primary btn-xl" href="#">Try it for free</a>
 					</div>
+					<ul class="list-unstyled small">
+						<li>5 microdosing cleanse</li>
+						<li>1 booth tofu</li>
+						<li>2 GB readymade biodiesel gentrify</li>
+						<li>200 GB ecosystem interaction</li>
+						<li>Normcore chartreuse 64-bit bag seitan</li>
+					</ul>
+
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="jumbotron secondary-background-image" style="background-image: url($images_folder/content/background-1440x640.jpg)">
+		<section class="container-fluid-1280">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="h1">Download now and have fun!</h2>
+					<p class="lead">Buyer Android & IPAD backing metrics crowdsource hypotheses social proof. Seed round startup launch party burn rate.</p>
+					<ul class="list-inline list-unstyled store-buttons">
+						<li><a href="#" rel="external" target="_blank" title="Download on the App Store, in new window"><img alt="Download on the App Store" src="$images_folder/ui/Download_on_the_App_Store_Badge_US-UK_135x40.png" /></a></li>
+						<li><a href="#" rel="external" target="_blank" title="Get it on Google Play, in new window"><img alt="Get it on Google Play" src="$images_folder/ui/google-play-badge.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
