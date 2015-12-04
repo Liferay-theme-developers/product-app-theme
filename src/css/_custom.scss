@@ -24,6 +24,41 @@
 	p {
 		font-size: 16px;
 	}
+
+	.badge {
+		margin-bottom: 18px;
+	}
+
+	.well {
+		background-color: rgba(#FFF, 0.08);
+		border-width: 0;
+
+		.h2 {
+			color: $color-4;
+		}
+
+		.currency {
+			top: -2.5em;
+		}
+
+		p.small {
+			font-size: 85%;
+			margin-top: 40px;
+			opacity: 0.4;
+		}
+
+		.list-unstyled {
+			opacity: 0.6;
+		}
+	}
+
+	.external-link a {
+		color: $color-2;
+
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
 }
 
 .h1 {
@@ -127,45 +162,6 @@
 		.tertiary-background-color & {
 			margin-bottom: 30px
 		}
-	}
-}
-
-.tertiary-background-color {
-	a {
-		color: $color-2;
-	}
-
-	a:hover, a:focus {
-		text-decoration: none;
-	}
-
-	.badge {
-		margin-bottom: 18px;
-	}
-}
-
-.main-background-color {
-	.h2 {
-		color: $color-4;
-	}
-
-	.well {
-		background-color: rgba(#6568B8, 1);
-		border-width: 0;
-	}
-
-	.currency {
-		top: -2.5em;
-	}
-
-	p.small {
-		font-size: 85%;
-		margin-top: 40px;
-		opacity: 0.4;
-	}
-
-	.list-unstyled {
-		opacity: 0.6;
 	}
 }
 
