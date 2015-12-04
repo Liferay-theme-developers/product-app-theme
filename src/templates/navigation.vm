@@ -1,21 +1,23 @@
 #set ($VOID = $velocityPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone"))
 
 <div aria-expanded="false" class="$nav_collapse collapse" id="navigationCollapse">
-		#if ($navigationSearch == true)
-			<nav id="search" role="navigation">
-				<div class="$nav_css_right navbar-form" role="search">
-					#set ($VOID = $velocityPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone"))
 
-					#search($velocityPortletPreferences.toString())
+	<div class="$nav_css_class $nav_css_right site-navigation" id="navigation" role="navigation">
+		#navigation_menu($velocityPortletPreferences.toString())
+	</div>
 
-					#set ($VOID = $velocityPortletPreferences.reset())
-				</div>
-			</nav>
-		#end
+	#if ($navigationSearch == true)
+		<nav id="search" role="navigation">
+			<div class="$nav_css_right navbar-form" role="search">
+				#set ($VOID = $velocityPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone"))
 
-		<div class="$nav_css_class $nav_css_right site-navigation" id="navigation" role="navigation">
-			#navigation_menu($velocityPortletPreferences.toString())
-		</div>
+				#search($velocityPortletPreferences.toString())
+
+				#set ($VOID = $velocityPortletPreferences.reset())
+			</div>
+		</nav>
+	#end
+
 
 </div>
 
