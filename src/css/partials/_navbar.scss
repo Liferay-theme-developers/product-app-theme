@@ -35,7 +35,8 @@
 		}
 	}
 
-	.logo {
+	a.logo {
+		color: $color-2;
 		margin-top: 10px;
 
 		@include sm {
