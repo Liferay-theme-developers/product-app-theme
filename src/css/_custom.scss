@@ -47,16 +47,8 @@
 			opacity: 0.4;
 		}
 
-		.list-unstyled {
+		& + ul.list-unstyled {
 			opacity: 0.6;
-		}
-	}
-
-	.external-link a {
-		color: $color-2;
-
-		&:hover, &:focus {
-			text-decoration: none;
 		}
 	}
 }
@@ -86,31 +78,41 @@
 
 .default-background-color {
 	background-color: $color-2;
-	color: $color-1;
 
 	p {
 		opacity: 0.5;
+	}
+
+	&, & a {
+		color: $color-1;
 	}
 }
 
 .main-background-color {
 	background-color: $background-color-3;
-	color: $color-2;
-
-	&, & a {
-		color: $color-2;
-	}
 }
 
 .secondary-background-color {
 	background-color: $background-color-1;
-	color: $color-2;
 }
 
 .tertiary-background-color {
 	background-color: $background-color-2;
-	color: $color-2;
 }
+
+
+.main-background-color, .secondary-background-color, .tertiary-background-color {
+	color: $color-2;
+
+	a {
+		color: $color-2;
+
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
 
 [class$="-background-image"] {
 	background-position: top center;
