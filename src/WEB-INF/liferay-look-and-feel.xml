@@ -10,11 +10,11 @@
 
 		<settings>
 			<setting configurable="true" key="full-screen-navigation" type="checkbox" value="false" />
-			<setting configurable="true" key="site-logo-retina" type="checkbox" value="true" />
-			<setting configurable="true" key="social-media-facebook" type="checkbox" value="true" />
-			<setting configurable="true" key="social-media-facebook-url" value="http://www.facebook.com" />
-			<setting configurable="true" key="social-media-twitter" type="checkbox" value="true" />
-			<setting configurable="true" key="social-media-twitter-url" value="http://www.twitter.com" />
+			<setting configurable="true" key="retina-site-logo" type="checkbox" value="true" />
+			<setting configurable="true" key="facebook-profile-visible" type="checkbox" value="true" />
+			<setting configurable="true" key="facebook-profile-url" value="http://www.facebook.com" />
+			<setting configurable="true" key="twitter-profile-visible" type="checkbox" value="true" />
+			<setting configurable="true" key="twitter-profile-url" value="http://www.twitter.com" />
 		</settings>
 
 		<portlet-decorator id="barebone" name="Barebone">
